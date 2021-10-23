@@ -1,0 +1,13 @@
+Variables: una variable es algo así como, un "lugar" donde guardamos algo para utilizar luego. Ese algo pueden ser números, palabras, nombres, es decir un valor. Hay distintos tipos de variables y se informan en la declaración de ella. Cada una tiene sus particularidades.
+
+Strings: se trata de un tipo de dato. Es una cadena o bloque de texto y para definirla utilizaremos comillas simples o dobles. Un ejemplo de string es, y se escribe, de esta manera: ‘Hola’. Esto es una cadena de texto y la escribimos entre comillas. Podría tener números esa cadena, pero un número no es considerado como tal, si lo escribimos entre comillas.
+
+Funciones (argumentos, return): las funciones son utilizadas para hacer algo con un conjunto de variables. Son muy importantes en el lenguaje JavaScript. Los argumentos son los valores que se le pasan a la función cuando es invocada. Veamos un ejemplo:
+function sum(a, b) {
+    return a + b;
+}
+Si invocáramos a la función de este ejemplo con los argumentos 2 y 3, el return (lo explico enseguida) nos devolverá el resultado de la suma de ambos. Es decir, le pasamos a los parámetros a y b de la función, los argumentos 2 y 3. Entonces que hace el return? El return nos devuelve lo que pidamos, en este caso la suma. Es la forma en que los datos escapan de la función. Y cuando la función llega al return detiene lo que está haciendo y devuelve lo que pedimos.
+
+Declaraciones (if): if es una sentencia que utilizaremos para tomar decisiones en programas informáticos. Se le llama estructura de control y sirve para realizar operaciones en función de una expresión. Podemos pensarlo así: “si (if) se cumple tal cosa, haremos lo siguiente”. 
+
+Valores booleanos (true, false): los valores booleanos nos brindan información del estilo “verdadero/falso”, “si/no”, “existe/no existe”. Son un tipo de dato primitivo y como dijimos, tiene dos posibles valores “true/false”. Es habitual que en programación necesitemos un tipo de dato que solo puede tener uno de dos valores y para ello se utilizan los valores booleanos.
