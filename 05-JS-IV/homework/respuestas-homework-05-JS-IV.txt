@@ -1,0 +1,18 @@
+Objetos: los objetos son colecciones de datos relacionados. Se puede decir que son entidades dinámicas (de pares clave-valor) que se pueden modificar en cualquier punto. Es un contenedor de propiedades donde una propiedad tiene un nombre y un valor, los objetos contienen mucha información de una sola cosa. En JavaScript todo son objetos, pues está diseñado en un paradigma simple basado en ellos.
+
+Propiedades: Como dijimos, un objeto es una colección de propiedades. Una propiedad es una asociación entre un nombre (o clave) y un valor. 
+
+Métodos: El valor de una propiedad puede ser una función y en ese caso la propiedad es conocida como un método. Las funciones guardadas en un objeto se denominan métodos.
+
+Bucle for…in: este bucle nos permite iterar sobre cada par clave/valor en nuestro objeto, nos permite realizar un recorrido genérico a todas las propiedades presentes en un objeto. Mediante esta estructura de control podremos obtener los nombres de las propiedades junto con sus valores.
+
+Notación de puntos vs notación de corchetes: hay dos formas de acceder a las propiedades de un objeto: la notación de puntos y la notación de corchetes.
+Podemos acceder a las propiedades de un objeto especificando el nombre del objeto, seguido de un punto, seguido del nombre de la propiedad. A esto llamamos notación de puntos. Es bastante más fácil de leer que la notación de corchetes y, por lo tanto, se usa con más frecuencia.
+También podemos acceder a las propiedades de un objeto especificando el nombre del objeto, seguido del nombre de la propiedad entre corchetes. A esto llamamos notación de corchetes.
+Hay algunas diferencias importantes entre la notación de puntos y corchetes:
+Notación de puntos:
+Las identificaciones de propiedad solo pueden ser alfanuméricas.
+Los identificadores de propiedad no pueden comenzar con un número.
+Los identificadores de propiedad no pueden contener variables.
+Notación de corchetes:
+Los identificadores de propiedad deben ser una cadena o una variable que haga referencia a una cadena.
