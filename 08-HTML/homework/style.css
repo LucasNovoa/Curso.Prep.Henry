@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/591/341/non_2x/crumpled-paper-background-texture-free-photo.jpg");
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color:#647766;
+    text-shadow: 1px 1px 2px #273a2b;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: papayawhip;
+    padding: 50px;
+    border: 2px solid #a1682e;
+    margin: 0 auto;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
